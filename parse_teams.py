@@ -77,7 +77,7 @@ KKR_squad.drop_duplicates(subset=None, keep='first', inplace=True)
 GT_squad.drop_duplicates(subset=None, keep='first', inplace=True)
 LSG_squad.drop_duplicates(subset=None, keep='first', inplace=True)
 
-directory='dream11/ipl20'
+directory='/kaggle/input/dream11/ipl20/'
 MI_squad.to_csv(directory+'teams/MI_squad.csv',index = False)
 CSK_squad.to_csv(directory+'teams/CSK_squad.csv', index=False)
 RR_squad.to_csv(directory+'teams/RR_squad.csv', index=False)
